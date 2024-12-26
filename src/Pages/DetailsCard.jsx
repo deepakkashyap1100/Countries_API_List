@@ -46,9 +46,9 @@ const DetailsCard = () => {
   return !countryData.countryN ? (<Loading />) : (
     <>
       <main className={`h-screen ${IsDark ? 'dark' : ""}`}>
-        <div className='container m-auto countries-container'>
+        <div className='container m-auto max-w-screen-xl'>
           <button className='bg-pink-600 px-5 py-2 rounded-full text-white' onClick={() => history.back()}>back</button>
-          <h1 className='text-2xl text-center mb-5'> Detail Page</h1>
+          <h1 className='text-2xl text-center mb-5'>More Information</h1>
           <div className=' gap-4 lg:grid-cols-4 grid' >
             <div >
               <div className='flag'><img src={countryData.flag} alt='' width={240} /></div>
