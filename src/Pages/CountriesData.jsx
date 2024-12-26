@@ -99,7 +99,7 @@ const CountriesData = () => {
     localData.length == 0 ? <ShimmerEffect /> : <>
       <main className={`${IsDark ? 'dark' : ''}`}>
         <div className='countries-listing'>
-          <h1 className='text-center'>All Countries List</h1>
+          <h1 className='text-center text-dark'>All Countries List</h1>
           <div className='button-group top-1 z-10 flex items-center justify-center p-1 pb-5 flex-wrap'>
             <input placeholder='Search Country' type="text"
               onChange={(e) => setQry(e.target.value.toLowerCase())}
