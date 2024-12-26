@@ -178,6 +178,12 @@ h3.card-title {
 .search-container input::placeholder {
   color: #999;
 }
+.detail-card {
+  color: #222222;
+}
+.dark .detail-card {
+  color: #ffffff;
+}
 
 .filter-by-region {
   width: 250px;
